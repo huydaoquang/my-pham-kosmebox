@@ -10,7 +10,7 @@ const cosmetics = [
     cuisine: "american",
     rating: 5,
     price: 36000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/ReplaceImages/INSC56-500x500.jpg",
   },
   {
@@ -21,7 +21,7 @@ const cosmetics = [
     cuisine: "hanoi",
     rating: 4,
     price: 90000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/INNISFREE/Mineral-Stick-Concealer/but-che-khuyet-diem-innisfree-mineral-stick-concealer-jeju-cosmetics-1-500x500.jpg",
   },
   {
@@ -32,7 +32,7 @@ const cosmetics = [
     cuisine: "chinese",
     rating: 3,
     price: 90900,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/SOONSIKI/sua-rua-mat-soonsiki-clean-sebum-clay-pack-to-form-120ml/Clean-Sebum-Clay-Pack-To-Form-4-320x320.jpg",
   },
   {
@@ -44,7 +44,7 @@ const cosmetics = [
     cuisine: "american",
     rating: 1,
     price: 68000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/THEFACESHOP/the-face-shop-concealer-dual-veil-trolls-8-1g/che-khuyet-diem-moi-mat-va-mat-the-face-shop-concealer-dual-veil-trolls-8-1g-5-500x500.jpg",
   },
   {
@@ -55,7 +55,7 @@ const cosmetics = [
     cuisine: "hanoi",
     rating: 5,
     price: 85000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/ETUDEHOUSE/color-my-brows-cara/Etude-House-Color-My-Brows-Cara-320x320.jpg",
   },
   {
@@ -67,7 +67,7 @@ const cosmetics = [
     cuisine: "chinese",
     rating: 5,
     price: 35000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/JM%20Solution/tinh-chat-ngoc-trai-jm-solution-marine-luminous-pearl-deep-moisture-mask/tinh-chat-ngoc-trai-jm-solution-marine-luminous-pearl-deep-moisture-mask-1-500x500.jpg",
   },
   {
@@ -78,7 +78,7 @@ const cosmetics = [
     cuisine: "american",
     rating: 2,
     price: 10000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/DIONEL/nuoc-hoa-vung-kin-dionel-secret-love/nuoc-hoa-vung-kin-dionel-secret-love-14-500x500.jpg",
   },
   {
@@ -89,7 +89,7 @@ const cosmetics = [
     cuisine: "hanoi",
     rating: 1,
     price: 19000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/THEFACESHOP/Eyebrow%20Trimmer/Eyebrow%20Trimmer4-500x500.jpg",
   },
   {
@@ -100,7 +100,7 @@ const cosmetics = [
     cuisine: "chinese",
     rating: 4,
     price: 27000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/THEFACESHOP/sua-rua-mat-bo-sung-am-the-face-shop-mango-seed-cleansing-foam/the-face-shop-mango-seed-cleansing-foam-1-500x500.jpg",
   },
   {
@@ -111,7 +111,7 @@ const cosmetics = [
     cuisine: "american",
     rating: 2,
     price: 35000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/13_Sa-chi%20serum%20phu%CC%A3c%20ho%CC%82%CC%80i%20to%CC%81c%20hu%CC%9B%20to%CC%82%CC%89n/1-500x500.png",
   },
   {
@@ -123,7 +123,7 @@ const cosmetics = [
     cuisine: "hanoi",
     rating: 3,
     price: 33000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/Laneige/Laneige-Perfect-Renew-Eye-Serum/perfect-renew-eye-serum-01-500x500.jpg",
   },
   {
@@ -134,7 +134,7 @@ const cosmetics = [
     cuisine: "chinese",
     rating: 2,
     price: 41000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/INNISFREE/greenteamineralmist/green-tea-mist-4-500x500.jpg",
   },
   {
@@ -146,7 +146,7 @@ const cosmetics = [
     cuisine: "american",
     rating: 5,
     price: 25000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/THEFACESHOP/smim/ceramide%20toner-500x500.jpg",
   },
   {
@@ -157,7 +157,7 @@ const cosmetics = [
     cuisine: "hanoi",
     rating: 4,
     price: 99000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/BIODERMA/nuoc-tay-trang-danh-cho-da-dau-mun-bioderma-sebium-h2o-500ml/bioderma-sebium-h2o-phap-500ml-7-500x500.jpg",
   },
   {
@@ -169,7 +169,7 @@ const cosmetics = [
     cuisine: "chinese",
     rating: 3,
     price: 20000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/INNISFREE/kem-chong-nang-chong-tham-nuoc-innisfree-intensive-long-lasting-sunscreen/Innisfree-Intensive-Long%E2%80%93Lasting-Sunscreen-SPF50-1-500x500.jpg",
   },
   {
@@ -181,7 +181,7 @@ const cosmetics = [
     cuisine: "american",
     rating: 1,
     price: 18000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/Somebymi/gel-duong-am-trang-da-some-by-mi-yuja-niacin-brightening-moisture-gel-cream-100ml/Some-By-Mi-Yuja-Niacin-Brightening-Moisture-Gel-Cream-11-500x500.jpg",
   },
   {
@@ -193,7 +193,7 @@ const cosmetics = [
     cuisine: "hanoi",
     rating: 5,
     price: 20000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/So-Natural/so-natural-red-peel-tingle-serum/so-natural-red-peel-tingle-serum-12-500x500.jpg",
   },
   {
@@ -205,7 +205,7 @@ const cosmetics = [
     cuisine: "chinese",
     rating: 5,
     price: 35000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/THEFACESHOP/nuoc-hoa-hong-duong-trang-da-the-face-shop-chia-seed-advanced-hydro-toner-145ml/The-Face-shop-Chia-Seed-Advanced-Toner-145ml-500x500.jpg",
   },
   {
@@ -217,7 +217,7 @@ const cosmetics = [
     cuisine: "american",
     rating: 2,
     price: 22000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/ReplaceImages/FSCC79-500x500.jpg",
   },
   {
@@ -229,7 +229,7 @@ const cosmetics = [
     cuisine: "hanoi",
     rating: 1,
     price: 19000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/INNISFREE/real-fit-matte-new-2019/real-fit-matte-new-2019-1-500x500.JPG",
   },
   {
@@ -241,7 +241,7 @@ const cosmetics = [
     cuisine: "chinese",
     rating: 4,
     price: 27000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/JM%20Solution/jm-solution-marine-luminous-black-pearl-balancing-mask/jm-solution-marine-luminous-black-pearl-balancing-mask-5-500x500.jpg",
   },
   {
@@ -252,7 +252,7 @@ const cosmetics = [
     cuisine: "american",
     rating: 2,
     price: 43000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/I-M-Meme/son-thoi-co-duong-i-m-meme-i-m-bare-lips-color-balm-3-2g/i-m-meme-i-m-bare-lips-color-balm-3-2g-2-500x500.jpg",
   },
   {
@@ -264,7 +264,7 @@ const cosmetics = [
     cuisine: "hanoi",
     rating: 3,
     price: 33000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/LEBELAGE/tinh-chat-vang-24k-chong-lao-hoa-da-lebelage-heeyul-premium-gold-essence-30ml-x-2-lo/tinh-chat-vang-24k-chong-lao-hoa-da-lebelage-heeyul-premium-gold-essence-30ml-x-2-lo-1-500x500.jpg",
   },
   {
@@ -276,7 +276,7 @@ const cosmetics = [
     cuisine: "chinese",
     rating: 2,
     price: 41000,
-    coverSrc:
+    images:
       "https://www.kosmebox.com/image/cache/data/THEFACESHOP/smart-peeling-mild-papaya-peeling/smart-peeling-mild-papaya-peeling-18-500x500.jpg",
   },
 ];

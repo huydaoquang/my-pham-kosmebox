@@ -2,8 +2,8 @@ import img from "../../assets/images/bocongthuong.png";
 
 const Footer = () => {
   return (
-    <footer className=" border-t-4 border-red-500 mt-5 bg-[#E5E5E5]">
-      <div className="max-w-[1120px] flex flex-wrap m-auto  gap-10  py-5 ">
+    <footer className=" border-t-4 border-red-500  bg-[#E5E5E5] w-full">
+      <div className="max-w-[1200px] flex flex-wrap m-auto  gap-10  py-5 ">
         <div className="">
           <h4 className="font-semibold pb-5">THÔNG TIN CHUNG</h4>
           <div className="leading-6 text-sm ">
@@ -56,6 +56,9 @@ const Footer = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center bg-[#f2f2f2] p-6">
+        <span>Bản quyền thuộc về Kosmebox Pte. Ltd.</span>
       </div>
     </footer>
   );
