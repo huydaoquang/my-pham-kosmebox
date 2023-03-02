@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import axios from "axios";
 
@@ -7,8 +8,8 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Cart from "./components/Cart/Cart";
 import NavBar from "./components/Navbar/NavBar";
-import { useEffect, useState } from "react";
 import { CartContext } from "./constants/CartContext";
+import Id1 from "./components/Detail/Id1";
 
 function App() {
   const [cosmetics, setCosmetics] = useState([]);
@@ -35,6 +36,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home cosmetics={cosmetics} />} />
             <Route path="/cart" element={<Cart />} />
+            <Route path="/1" element={<Id1 />} />
           </Routes>
           <Footer />
         </div>

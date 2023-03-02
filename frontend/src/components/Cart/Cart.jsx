@@ -15,8 +15,8 @@ const Cart = () => {
 
   const handlePay = () => {
     setAddToCart([{}]);
+    alert("Thanh toán thành công", priceSum);
     setPriceSum(0);
-    alert("Thanh toán thành công");
   };
 
   return (
@@ -24,6 +24,16 @@ const Cart = () => {
       <div className="max-w-[1200px] mx-auto">
         {priceSum ? (
           <>
+            <table className="w-full ">
+              <thead>
+                <tr className="flex justify-between">
+                  <th>Hình ảnh</th>
+                  <th>Tên sản phẩm</th>
+                  <th>Số lượng</th>
+                  <th>Đơn Giá</th>
+                </tr>
+              </thead>
+            </table>
             {addToCart.slice(1).map((item) => (
               <div
                 className="flex justify-between items-center gap-5 border-b"
@@ -36,9 +46,9 @@ const Cart = () => {
                 />
                 <div className="text-red-500 w-96 ">{item.title}</div>
                 <div className="flex gap-3">
-                  <button className="bg-[#fff] px-2 py-1">+</button>
-                  <button className="bg-[#fff] px-2 py-1">1</button>
-                  <button className="bg-[#fff] px-2 py-1">-</button>
+                  <button className="bg-[#fff] px-2 py-1 border">+</button>
+                  <button className="bg-[#fff] px-2 py-1 border">1</button>
+                  <button className="bg-[#fff] px-2 py-1 border">-</button>
                 </div>
                 <div className="text-red-500">
                   {item.price.toLocaleString()} đ
