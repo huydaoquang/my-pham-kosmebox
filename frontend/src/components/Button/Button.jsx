@@ -1,10 +1,8 @@
-const Button = ({ label }) => {
+const Button = ({ label, className, onClick }) => {
   return (
-    <section className="bg-redCustom m-3 rounded-md">
-      <button className=" text-white px-16 py-[10px] uppercase ">
-        {label}
-      </button>
-    </section>
+    <button className={className} onClick={onClick}>
+      {label}
+    </button>
   );
 };
 

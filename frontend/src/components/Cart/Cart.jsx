@@ -26,9 +26,9 @@ const Cart = () => {
           <>
             <table className="w-full ">
               <thead>
-                <tr className="flex justify-between">
+                <tr className="grid grid-cols-5">
                   <th>Hình ảnh</th>
-                  <th>Tên sản phẩm</th>
+                  <th className="col-start-3">Tên sản phẩm</th>
                   <th>Số lượng</th>
                   <th>Đơn Giá</th>
                 </tr>

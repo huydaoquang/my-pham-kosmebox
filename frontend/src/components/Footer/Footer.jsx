@@ -2,8 +2,8 @@ import img from "../../assets/images/bocongthuong.png";
 
 const Footer = () => {
   return (
-    <footer className=" border-t-4 border-red-500  bg-[#E5E5E5] w-full">
-      <div className="max-w-[1200px] flex flex-wrap m-auto  gap-10  py-5 ">
+    <footer className="border-t-4 border-red-500  bg-[#E5E5E5] w-full">
+      <div className="footer:hidden max-w-[1200px] flex flex-wrap m-auto  gap-10  py-5 ">
         <div className="">
           <h4 className="font-semibold pb-5">THÔNG TIN CHUNG</h4>
           <div className="leading-6 text-sm ">
