@@ -5,6 +5,7 @@ import Button from "../Button/Button";
 import Cards from "../Cards/Cards";
 import Images from "../Images/Images";
 import Title from "../Title/Title";
+import ScrollToTop from "../ScrollToTop/ScrollToTopControlller";
 
 const Home = (props) => {
   const { cosmetics } = props;
@@ -15,11 +16,12 @@ const Home = (props) => {
         src="https://www.kosmebox.com/image/data/banner2021/banner-sale-cuoi-nam/5dc13313549d9ec3c78c.jpg"
         className="w-full mt-1"
       />
+      <ScrollToTop />
       <div className="max-w-[1200px] mx-auto">
         <div className="xs:pl-5 sm:flex-col flex justify-between flex-wrap gap-2 my-6">
           <div className=" flex items-center gap-10">
             <div className="flex items-center justify-center shrink-0 w-[50px] h-[50px] rounded-full border border-redCustom">
-              <SlDiamond className="text-redCustom " size={18} />
+              <SlDiamond className="text-redCustom " size={20} />
             </div>
             <div className="text-sm">
               <p className="xs:text-left sm:text-left text-redCustom font-semibold text-center pb-2">
@@ -30,7 +32,7 @@ const Home = (props) => {
           </div>
           <div className=" flex items-center gap-10">
             <div className="flex items-center justify-center w-[50px] h-[50px] rounded-full border border-redCustom">
-              <AiOutlineGift className="text-redCustom " size={18} />
+              <AiOutlineGift className="text-redCustom " size={25} />
             </div>
             <div className="text-sm">
               <p className="xs:text-left sm:text-left text-redCustom font-semibold text-center pb-2">
@@ -41,7 +43,7 @@ const Home = (props) => {
           </div>
           <div className=" flex items-center gap-10">
             <div className="flex items-center justify-center w-[50px] h-[50px] rounded-full border border-redCustom">
-              <AiFillLike className="text-redCustom " size={18} />
+              <AiFillLike className="text-redCustom " size={25} />
             </div>
             <div className="text-sm">
               <p className="xs:text-left sm:text-left text-redCustom font-semibold text-center pb-2">
@@ -62,7 +64,7 @@ const Home = (props) => {
           />
         </div>
         <Title title={"ĐỒNG GIÁ 9K - 79K"} />
-        <div className="flex flex-wrap justify-center gap-4 my-6">
+        <div className="flex flex-wrap justify-center gap-7 my-6">
           {cosmetics.slice(0, 5).map((item) => (
             <Cards
               className="flex flex-col xs:w-[157px] xs:h-[355px] w-[216px] h-[394px] bg-white p-[10px] mb-5 text-sm hover:shadow-md cursor-pointer ease-in-out duration-300"
@@ -72,6 +74,7 @@ const Home = (props) => {
               title={item.title}
               images={item.images}
               price={item.price}
+              label={"Mua hàng"}
             />
           ))}
         </div>
@@ -92,6 +95,7 @@ const Home = (props) => {
               title={item.title}
               images={item.images}
               price={item.price}
+              label={"Mua hàng"}
             />
           ))}
         </div>
@@ -106,6 +110,7 @@ const Home = (props) => {
               title={item.title}
               images={item.images}
               price={item.price}
+              label={"Mua hàng"}
             />
           ))}
         </div>

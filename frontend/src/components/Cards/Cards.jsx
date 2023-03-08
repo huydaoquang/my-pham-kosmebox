@@ -6,7 +6,7 @@ import Images from "../Images/Images";
 
 const Cards = (props) => {
   const [isAdded, setIsAdded] = useState(false);
-  const { id, title, images, price, className, heightImg } = props;
+  const { id, title, images, price, className, heightImg, label } = props;
   const { setAddToCart, setPriceSum } = useContext(CartContext);
 
   const handleAddToCart = () => {
@@ -42,7 +42,7 @@ const Cards = (props) => {
             <Button
               className="bg-[#F01053] hover:bg-red-600 ease-in-out duration-300 p-2 text-white px-5 rounded-md"
               onClick={handleAddToCart}
-              label={"Mua hàng"}
+              label={label}
             />
           )}
         </div>

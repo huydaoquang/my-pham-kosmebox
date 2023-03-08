@@ -15,7 +15,7 @@ const cosmetics = [
   },
   {
     id: 2,
-    title: "Che Khuyết Điểm Innisfree Mineral Stick Concealer 2g [HSD 12/2022]",
+    title: "Che Khuyết Điểm Innisfree Mineral Stick Concealer 2g ",
     serviceTime: "15-20min",
     category: "place",
     cuisine: "hanoi",
@@ -49,7 +49,7 @@ const cosmetics = [
   },
   {
     id: 5,
-    title: "Cọ Tô Màu Mày Etude House Color My Brows Cara 4.5g [HSD 6/2022]",
+    title: "Cọ Tô Màu Mày Etude House Color My Brows Cara 4.5g ",
     serviceTime: "25-30min",
     category: "place",
     cuisine: "hanoi",
@@ -140,7 +140,7 @@ const cosmetics = [
   {
     id: 13,
     title:
-      "Nước Hoa Hồng Sáng Da Gạo The Face Shop Rice & Ceramide Moisture Toner - 150ml (Phiên bản mới 2016)",
+      "Nước Hoa Hồng Sáng Da Gạo The Face Shop Rice & Ceramide Moisture Toner - 150ml ",
     serviceTime: "45-60min",
     category: "place",
     cuisine: "american",
@@ -223,7 +223,7 @@ const cosmetics = [
   {
     id: 20,
     title:
-      "Son Thỏi Lì Mềm Mịn Môi Innisfree Real Fit Matte Lipstick (New 2019) [HSD 8/2022]",
+      "Son Thỏi Lì Mềm Mịn Môi Innisfree Real Fit Matte Lipstick (New 2019) ",
     serviceTime: "10-15min",
     category: "dish",
     cuisine: "hanoi",
